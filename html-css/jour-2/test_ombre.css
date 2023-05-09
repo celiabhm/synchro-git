@@ -1,0 +1,28 @@
+h1{
+    text-shadow: 8px -8px 5px  rgb(158, 51, 158);
+}
+
+.p1{
+    box-shadow:3px 0px 15px red;
+}
+
+.p2{
+    box-shadow: -15px 12px 8px greenyellow;
+}
+
+div{
+    background-color: rgb(145, 69, 189);
+    width:600px;
+    height:300px;
+    
+}
+
+div > div{
+    background:rgb(51, 120, 177);
+    width: 50%;
+    height: 50%;
+    position: relative;    
+    top:25%;
+    left:25%; 
+    box-shadow: 5px 5px 7px black ,-5px -5px 7px white;
+}

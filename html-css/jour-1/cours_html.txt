@@ -1,0 +1,7 @@
+HTML_02/05/2023
+
+Pour créer une ancre avec un lien afin d'envoyer l'utilisateur sur une autre page: 
+<a href="chemin de l'autre page">Entrer le texte pour le lien ici</a>
+
+On rajoutera l'attribut target_bank afin que le navigateur comprenne que l'on souhaite ouvrir cette page dans un nouveau onglet.
+

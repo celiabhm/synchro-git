@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+
+a {
+    color:yellowgreen;
+}
+
+#contenu{
+    background-color: lightgrey;
+}
+
+#img_txt{
+    text-align: right;
+}
+
+#parag{
+    font-size: 2em;
+}
