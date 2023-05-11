@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+}
+
+.corps{
+    border: solid 2px rgb(68, 139, 206);
+    border-radius: 15px ;
+    margin-left: 10px;
+    padding:10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(6,2fr );
+}
+
+/* TEXTE */
+.corps p:nth-child(1){
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.corps p:nth-child(2){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.corps p:nth-child(3){
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.corps p:nth-child(4){
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.corps p:nth-child(5){
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.corps p:nth-child(6){
+    grid-column: 2;
+    grid-row: 6;
+}
+/* FIN TEXTE  */
+
+/* LISTE */
+ul{
+    list-style-type: none;
+    border: solid 2px  rgb(68, 139, 206);
+    border-radius: 10px;
+    margin:0;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    width: 130px;
+    
+}
+
+.message{
+    margin-top: 10px;
+}
+
+input#message{
+    width:70%;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+input#bouton{
+    height: 40px;
+}
+
+aside .liste{ 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
