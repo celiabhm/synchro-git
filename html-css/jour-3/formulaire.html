@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="post">
+        <fieldset>
+            <legend>Infos personnels</legend>
+        
+        <label for="name">Prénom:</label>
+        <input type="text" id="name" placeholder="ex: Célia" minlength="2" maxlength="20">
+    <br>
+        <label for="nom de famille">Nom:</label>
+        <input type="text" id="nom de famille" placeholder="ex : Dupont" minlength="2"maxlength="20">
+    <br>
+        <label for="email">Adresse mail</label>
+        <input type="mail" id="email" placeholder="....@.....com">
+    <br>
+        <label for="tel">Numéro de tel</label>
+        <input type="text" id="tel" placeholder="ex :06.35.87.12.96">
+    <br>
+        <label for="mdp">Mot de passe:</label>
+        <input type="text" id="mdp" placeholder="ex: loulou31" minlength="8" maxlength="30">
+    <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="ex: 28">
+    <br>
+        <label for="comment">Laissez un commentaire ci-dessous</label>
+    <br>
+        <textarea id="comment" name="comment" cols="70" rows="20">Ecris ici !</textarea>
+    <br>
+        <label for="date">Date de mon commentaire:</label>
+        <input type="date" id="date">
+    <br>
+        <label for="fichier" id="fichier">Ma photo:</label>
+        <input type="file" id="fichier">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form action="post">
+        <fieldset>
+            <legend>Vous préférez:</legend>
+            
+    <br>
+
+            <input type="checkbox" id="case" checked>
+            <label for="bouton">Le HTML</label>
+    <br>
+            <input type="checkbox" id="cocher">
+            <label for="case" id="cocher">Le CSS</label>
+    <br>
+            <input type="checkbox" id="js">
+            <label for="case" id="js">Le Javascript</label>
+    <br>
+            <input type="checkbox" id="rien">
+            <label for="case" id="rien">Ne rien faire</label>
+    </form>
+        </fieldset>
+
+    <form action="post">
+        <fieldset>
+            <legend>Vous vous levez:</legend>
+            <input type="radio" id="radio1" checked>
+            <labeln for="case" id="radio1">Le matin</label>
+    <br>
+            <input type="radio" id="radio2">
+            <label for="case" id="radio2">Le midi</label>
+    <br>
+            <input type="radio" id="radio3">
+            <label for="case" id="radio3">Le soir</label>
+    <br>
+            <input type="radio" id="radio4">
+            <label for="case" id="radio4">En retard !</label>
+        </fieldset>
+    </form>
+
+    <br>
+    <form action="post">
+        <fieldset>
+            <legend>Fin du formulaire</legend>
+            <label for="valider" id="bouton">Vous en avez assez ?</label>
+    <br>
+            <input type="submit" id="bouton" value="Envoyer">
+            <input type="reset" id="bouton" value="Reset">
+        <select name="liste" id="liste">
+            <optgroup label="Team Pas encore"></optgroup>
+                <option>J'en veux plus</option>
+                <option>C'est super !</option>
+            <optgroup label="Team Oula"></optgroup>
+            <option>J'en ai marre</option>
+            <option>Pitié !</option>
+        </select>
+
+        </fieldset>
+    </form>
+</body>
+</html>

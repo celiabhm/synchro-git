@@ -1,0 +1,22 @@
+caption{
+    color:blueviolet;
+}
+table,th,td{
+    border : 1px solid;
+}
+
+table{
+    border:thick double blueviolet;
+}
+
+th{
+    background-color: rgb(105, 179, 240);
+}
+
+table{
+    border-collapse:collapse;
+}
+
+td{
+    text-align: center;
+}
