@@ -1,0 +1,16 @@
+					UML 
+
+C'est un langage de schéma et non un langage de codage. 
+usecase : diagramme le plus important à ajouter dans le cahier des charges 
+activité : diagramme aussi 
+séquence : diagramme aussi 
+Diagramme de structure : représentation des données 
+Les diagrammes nous servent en amont pour pouvoir développer plus facilement.
+
+Il va représenter l'ensemble des fonctionnalités.
+Il sert aussi aux utilisateurs 
+
+On va découper les étapes en plusieurs parties(petit à petit).
+
+Notions : 
+Quand on créer quelque chose, qu'on ajoute quelque chose, il faut que les données soit visibles(autoriser la modification des utilisateurs ou pas).
